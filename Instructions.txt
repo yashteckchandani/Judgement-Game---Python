@@ -1,0 +1,49 @@
+*********instructions to play the game*************
+
+The program will first ask you whether you want to continue or not, to proceed press Y else press N
+
+Now the program will ask you about the way you want to play the game 
+
+      1) "random" for a random gameplay
+
+      2)"custom" for playing with predefined set of
+      cards and sitting order.
+      For second method use the following file format to give the input of set of cards and order.
+      
+      bot1:  HA,SK,DQ,CJ,H10,S9,D8,C7,H6,H5,H4,H3,H2
+      bot2:  HK,SA,DJ,CQ,S10,D9,S8,S7,S6,S5,S4,S3,S2
+      bot3:  HQ,SJ,DA,CK,C10,C9,C8,H7,C6,C5,C4,C3,C2
+      player: HJ,SQ,DK,CA,D10,H9,H8,D7,D6,D5,D4,D3,D2
+      cyclic order bot1->bot2->player->bot3
+
+
+once the mode of gameplay is selected the program displays the cards in possession of player.
+
+Based on the shown cards player have to make the call.
+
+Now the game starts and in every round the program shows the cards belonging to the player from
+ which he/she have to play a card.
+
+The first move of first round is randomly selected and for further rounds the winner of last round
+ initiates the next round.
+
+After completion of all 13 rounds the program displays the scorecard and asks whether you want to 
+play another set or not(Y/N)
+
+if you select "Y" another round will start and if "N" then the final score of all the rounds 
+will be shown
+
+
+STRICTLY FOLLOW THE FORMAT SHOWN IN THE EXAMPLE ABOVE FOR THE CUSTOM MODE OF INPUT AND SAVE 
+YOUR TEXT FILE IN THE FOLDER WHERE THE PROGRAM FILE IS SAVED
+
+THANK YOU
+
+
+
+
+
+developer
+
+
+yash teckchandani
